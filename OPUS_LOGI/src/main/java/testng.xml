@@ -1,0 +1,557 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="test suite" verbose="1" thread-count="1" parallel="tests">
+
+<!-- ****************************************** -->
+<test name="Validate_CustomerPropertyDetail_COM">
+<classes>
+<class name= "Logi.CustomerPropertyDetailReport.Validate_CustomerPropertyDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_CustomerPropertyDetail_UI_Functionality_COM">
+<classes>
+<class name= "Logi.CustomerPropertyDetailReport.Validate_CustomerPropertyDetail_UI_Functionality_COM"/>
+</classes>
+</test>
+
+
+<!-- ****************************************** -->
+
+<test name="Validate_DisposalCycleDetail_AllLOB">
+<classes>
+<class name= "Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleDetail_COM">
+<classes>
+<class name= "Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleDetail_RESI">
+<classes>
+<class name= "Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleDetail_RO">
+<classes>
+<class name= "Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+
+<!-- ****************************************** -->
+
+<test name="Validate_DisposalCycleSummary_AllLOB">
+<classes>
+<class name= "Logi.DisposalCycleSummaryReport.Validate_DisposalCycleSummary_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleSummary_COM">
+<classes>
+<class name= "Logi.DisposalCycleSummaryReport.Validate_DisposalCycleSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleSummary_RESI">
+<classes>
+<class name= "Logi.DisposalCycleSummaryReport.Validate_DisposalCycleSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleSummary_RO">
+<classes>
+<class name= "Logi.DisposalCycleSummaryReport.Validate_DisposalCycleSummary_RO"/>
+</classes>
+</test>
+<test name="Validate_DisposalCycleSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.DisposalCycleSummaryReport.Validate_DisposalCycleSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_DistrictDashboard_AllLOB">
+<classes>
+<class name= "Logi.DistrictDashboardReport.Validate_DistrictDashboard_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_DistrictDashboard_COM">
+<classes>
+<class name= "Logi.DistrictDashboardReport.Validate_DistrictDashboard_COM"/>
+</classes>
+</test>
+<test name="Validate_DistrictDashboard_RESI">
+<classes>
+<class name= "Logi.DistrictDashboardReport.Validate_DistrictDashboard_RESI"/>
+</classes>
+</test>
+<test name="Validate_DistrictDashboard_RO">
+<classes>
+<class name= "Logi.DistrictDashboardReport.Validate_DistrictDashboard_RO"/>
+</classes>
+</test>
+<test name="Validate_DistrictDashboard_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.DistrictDashboardReport.Validate_DistrictDashboard_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+
+<!-- ****************************************** -->
+
+<test name="Validate_DowntimeDetail_AllLOB">
+<classes>
+<class name= "Logi.DowntimeDetailReport.Validate_DowntimeDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_DowntimeDetail_COM">
+<classes>
+<class name= "Logi.DowntimeDetailReport.Validate_DowntimeDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_DowntimeDetail_RESI">
+<classes>
+<class name= "Logi.DowntimeDetailReport.Validate_DowntimeDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_DowntimeDetail_RO">
+<classes>
+<class name= "Logi.DowntimeDetailReport.Validate_DowntimeDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_DowntimeDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.DowntimeDetailReport.Validate_DowntimeDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_EfficiencyPerformance_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.EfficiencyPerformanceReport.Validate_EfficiencyPerformance_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_EfficiencyPerformanceReport_COM">
+<classes>
+<class name= "Logi.EfficiencyPerformanceReport.Validate_EfficiencyPerformanceReport_COM"/>
+</classes>
+</test>
+<test name="Validate_EfficiencyPerformanceReport_RESI">
+<classes>
+<class name= "Logi.EfficiencyPerformanceReport.Validate_EfficiencyPerformanceReport_RESI"/>
+</classes>
+</test>
+<test name="Validate_EfficiencyPerformanceReport_RO">
+<classes>
+<class name= "Logi.EfficiencyPerformanceReport.Validate_EfficiencyPerformanceReport_RO"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_EfficiencySummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.EfficiencySummary.Validate_EfficiencySummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_EfficiencySummaryReport_COM">
+<classes>
+<class name= "Logi.EfficiencySummary.Validate_EfficiencySummaryReport_COM"/>
+</classes>
+</test>
+<test name="Validate_EfficiencySummaryReport_RESI">
+<classes>
+<class name= "Logi.EfficiencySummary.Validate_EfficiencySummaryReport_RESI"/>
+</classes>
+</test>
+<test name="Validate_EfficiencySummaryReport_RO">
+<classes>
+<class name= "Logi.EfficiencySummary.Validate_EfficiencySummaryReport_RO"/>
+</classes>
+</test>
+
+
+<!-- ****************************************** -->
+
+<test name="Validate_FlashReport_COM">
+<classes>
+<class name= "Logi.FlashReport.Validate_FlashReport_COM"/>
+</classes>
+</test>
+<test name="Validate_FlashReport_RESI">
+<classes>
+<class name= "Logi.FlashReport.Validate_FlashReport_RESI"/>
+</classes>
+</test>
+<test name="Validate_FlashReport_RO">
+<classes>
+<class name= "Logi.FlashReport.Validate_FlashReport_RO"/>
+</classes>
+</test>
+<test name="Validate_FlashReport_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.FlashReport.Validate_FlashReport_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="ValidateFilterPersist_ForAllLogiReports">
+<classes>
+<class name= "Logi.Generic.ValidateFilterPersist_ForAllLogiReports"/>
+</classes>
+</test>
+
+
+<!-- ****************************************** -->
+
+<test name="Validate_IdleDetail_AllLOB">
+<classes>
+<class name= "Logi.IdleDetailReport.Validate_IdleDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_IdleDetail_COM">
+<classes>
+<class name= "Logi.IdleDetailReport.Validate_IdleDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_IdleDetail_RESI">
+<classes>
+<class name= "Logi.IdleDetailReport.Validate_IdleDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_IdleDetail_RO">
+<classes>
+<class name= "Logi.IdleDetailReport.Validate_IdleDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_IdleDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.IdleDetailReport.Validate_IdleDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_IdleSummary_AllLOB">
+<classes>
+<class name= "Logi.IdleSummaryReport.Validate_IdleSummary_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_IdleSummary_COM">
+<classes>
+<class name= "Logi.IdleSummaryReport.Validate_IdleSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_IdleSummary_RESI">
+<classes>
+<class name= "Logi.IdleSummaryReport.Validate_IdleSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_IdleSummary_RO">
+<classes>
+<class name= "Logi.IdleSummaryReport.Validate_IdleSummary_RO"/>
+</classes>
+</test>
+<test name="Validate_IdleSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.IdleSummaryReport.Validate_IdleSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_KRONOS_OCS_Lunch_Exception_UI_Functionality">
+<classes>
+<class name= "Logi.KRONOSOCSLunchExceptionReport.Validate_KRONOS_OCS_Lunch_Exception_UI_Functionality"/>
+</classes>
+</test>
+<test name="Validate_KRONOSOCSLunchException">
+<classes>
+<class name= "Logi.KRONOSOCSLunchExceptionReport.Validate_KRONOSOCSLunchException"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_PostRouteDetail_AllLOB">
+<classes>
+<class name= "Logi.PostRouteDetailReport.Validate_PostRouteDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_PostRouteDetail_COM">
+<classes>
+<class name= "Logi.PostRouteDetailReport.Validate_PostRouteDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_PostRouteDetail_RESI">
+<classes>
+<class name= "Logi.PostRouteDetailReport.Validate_PostRouteDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_PostRouteDetail_RO">
+<classes>
+<class name= "Logi.PostRouteDetailReport.Validate_PostRouteDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_PostRouteDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.PostRouteDetailReport.Validate_PostRouteDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_PostRouteSummary_AllLOB">
+<classes>
+<class name= "Logi.PostRouteSummaryReport.Validate_PostRouteSummary_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_PostRouteSummary_COM">
+<classes>
+<class name= "Logi.PostRouteSummaryReport.Validate_PostRouteSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_PostRouteSummary_RESI">
+<classes>
+<class name= "Logi.PostRouteSummaryReport.Validate_PostRouteSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_PostRouteSummary_RO">
+<classes>
+<class name= "Logi.PostRouteSummaryReport.Validate_PostRouteSummary_RO"/>
+</classes>
+</test>
+<test name="Validate_PostRouteSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.PostRouteSummaryReport.Validate_PostRouteSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_PreRouteDetail_AllLOB">
+<classes>
+<class name= "Logi.PreRouteDetailReport.Validate_PreRouteDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_PreRouteDetail_COM">
+<classes>
+<class name= "Logi.PreRouteDetailReport.Validate_PreRouteDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_PreRouteDetail_RESI">
+<classes>
+<class name= "Logi.PreRouteDetailReport.Validate_PreRouteDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_PreRouteDetail_RO">
+<classes>
+<class name= "Logi.PreRouteDetailReport.Validate_PreRouteDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_PreRouteDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.PreRouteDetailReport.Validate_PreRouteDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_PreRouteSummary_AllLOB">
+<classes>
+<class name= "Logi.PreRouteSummaryReport.Validate_PreRouteSummary_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_PreRouteSummary_COM">
+<classes>
+<class name= "Logi.PreRouteSummaryReport.Validate_PreRouteSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_PreRouteSummary_RESI">
+<classes>
+<class name= "Logi.PreRouteSummaryReport.Validate_PreRouteSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_PreRouteSummary_RO">
+<classes>
+<class name= "Logi.PreRouteSummaryReport.Validate_PreRouteSummary_RO"/>
+</classes>
+</test>
+<test name="Validate_PreRouteSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.PreRouteSummaryReport.Validate_PreRouteSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_RouteSummary_COM">
+<classes>
+<class name= "Logi.RouteSummaryReport.Validate_RouteSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_RouteSummary_RESI">
+<classes>
+<class name= "Logi.RouteSummaryReport.Validate_RouteSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_RouteSummary_RO">
+<classes>
+<class name= "Logi.RouteSummaryReport.Validate_RouteSummary_RO"/>
+</classes>
+</test>
+<test name="Validate_RouteSummary_AllLOB">
+<classes>
+<class name= "Logi.RouteSummaryReport.Validate_RouteSummary_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_RouteSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.RouteSummaryReport.Validate_RouteSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_SalesInformationDetail_AllLOB">
+<classes>
+<class name= "Logi.SalesInformationDetailReport.Validate_SalesInformationDetail_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_SalesInformationDetail_COM">
+<classes>
+<class name= "Logi.SalesInformationDetailReport.Validate_SalesInformationDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_SalesInformationDetail_RESI">
+<classes>
+<class name= "Logi.SalesInformationDetailReport.Validate_SalesInformationDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_SalesInformationDetail_RO">
+<classes>
+<class name= "Logi.SalesInformationDetailReport.Validate_SalesInformationDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_SalesInformationDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.SalesInformationDetailReport.Validate_SalesInformationDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_SequenceComplianceDetail_COM">
+<classes>
+<class name= "Logi.SequenceComplianceDetailReport.Validate_SequenceComplianceDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_SequenceComplianceDetail_RESI">
+<classes>
+<class name= "Logi.SequenceComplianceDetailReport.Validate_SequenceComplianceDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_SequenceComplianceDetail_RO">
+<classes>
+<class name= "Logi.SequenceComplianceDetailReport.Validate_SequenceComplianceDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_SequenceComplianceDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.SequenceComplianceDetailReport.Validate_SequenceComplianceDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_SequenceComplianceSummary_COM">
+<classes>
+<class name= "Logi.SequenceComplianceSummaryReport.Validate_SequenceComplianceSummary_COM"/>
+</classes>
+</test>
+<test name="Validate_SequenceComplianceSummary_RESI">
+<classes>
+<class name= "Logi.SequenceComplianceSummaryReport.Validate_SequenceComplianceSummary_RESI"/>
+</classes>
+</test>
+<test name="Validate_SequenceComplianceSummary_RO">
+<classes>
+<class name= "Logi.SequenceComplianceSummaryReport.Validate_SequenceComplianceSummary_RO"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_ServiceExceptionsDetail_COM">
+<classes>
+<class name= "Logi.ServiceExceptionsDetailReport.Validate_ServiceExceptionsDetail_COM"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsDetail_RESI">
+<classes>
+<class name= "Logi.ServiceExceptionsDetailReport.Validate_ServiceExceptionsDetail_RESI"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsDetail_RO">
+<classes>
+<class name= "Logi.ServiceExceptionsDetailReport.Validate_ServiceExceptionsDetail_RO"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsDetail_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.ServiceExceptionsDetailReport.Validate_ServiceExceptionsDetail_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_ServiceExceptionsSummary_UI_Functionality_AllLOB">
+<classes>
+<class name= "Logi.ServiceExceptionsSummaryReport.Validate_ServiceExceptionsSummary_UI_Functionality_AllLOB"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsSummaryReport_COM">
+<classes>
+<class name= "Logi.ServiceExceptionsSummaryReport.Validate_ServiceExceptionsSummaryReport_COM"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsSummaryReport_RESI">
+<classes>
+<class name= "Logi.ServiceExceptionsSummaryReport.Validate_ServiceExceptionsSummaryReport_RESI"/>
+</classes>
+</test>
+<test name="Validate_ServiceExceptionsSummaryReport_RO">
+<classes>
+<class name= "Logi.ServiceExceptionsSummaryReport.Validate_ServiceExceptionsSummaryReport_RO"/>
+</classes>
+</test>
+
+<!-- ****************************************** -->
+
+<test name="Validate_SummaryDashboard_Report_COM">
+<classes>
+<class name= "Logi.SummaryDashboardReport.Validate_SummaryDashboard_Report_COM"/>
+</classes>
+</test>
+<test name="Validate_SummaryDashboard_Report_RESI">
+<classes>
+<class name= "Logi.SummaryDashboardReport.Validate_SummaryDashboard_Report_RESI"/>
+</classes>
+</test>
+<test name="Validate_SummaryDashboard_Report_RO">
+<classes>
+<class name= "Logi.SummaryDashboardReport.Validate_SummaryDashboard_Report_RO"/>
+</classes>
+</test>
+<test name="Validate_SummaryDashboard_Report_UIValidation">
+<classes>
+<class name= "Logi.SummaryDashboardReport.Validate_SummaryDashboard_Report_UIValidation"/>
+</classes>
+</test>
+
+</suite>

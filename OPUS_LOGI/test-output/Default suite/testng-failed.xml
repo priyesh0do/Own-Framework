@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="Logi.IdleDetailReport.Validate_IdleDetail_COM">
-=======
-      <class name="Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_UI_Functionality_AllLOB">
->>>>>>> branch 'master' of https://github.wm.com/srathore/OPUS_LOGI.git
+      <class name="SalesMonster.ValidateAddDeleteDeal">
         <methods>
+          <include name="Validate_SummaryDashboard_ReportValidation_COM" invocation-numbers="0"/>
           <include name="sendReportEmail"/>
           <include name="initializeWebdriver"/>
-<<<<<<< HEAD
-          <include name="Validation_IdleDetailReport_COM" invocation-numbers="38"/>
-=======
-          <include name="Validation_DisposalCycleDetailReport_UI_Functionality_AllLOB" invocation-numbers="72"/>
->>>>>>> branch 'master' of https://github.wm.com/srathore/OPUS_LOGI.git
         </methods>
-<<<<<<< HEAD
-      </class> <!-- Logi.IdleDetailReport.Validate_IdleDetail_COM -->
-=======
-      </class> <!-- Logi.DisposalCycleDetailReport.Validate_DisposalCycleDetail_UI_Functionality_AllLOB -->
->>>>>>> branch 'master' of https://github.wm.com/srathore/OPUS_LOGI.git
+      </class> <!-- SalesMonster.ValidateAddDeleteDeal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
